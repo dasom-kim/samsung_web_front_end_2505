@@ -9,7 +9,7 @@ const navigations = [
 
 export default function Header() {
   return (
-    <header className="flex gap-[10px]">
+    <header className="flex gap-[10px] bg-blue-100 px-5 py-5">
       {navigations.map(navigation => (
         <NavLink
           to={navigation.to}
